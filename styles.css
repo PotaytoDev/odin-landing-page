@@ -3,6 +3,8 @@ body {
   margin: 0;
 }
 
+/* Header section */
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -30,6 +32,8 @@ a {
   color: #F9FAF8;
   font-weight: bold;
 }
+
+/* Hero section */
 
 .hero-section {
   display: flex;
@@ -73,4 +77,35 @@ button {
   border: 1px solid #3882F6;
   font-weight: bolder;
   font-size: 18px;
+}
+
+/* Info section */
+
+.info-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 200px;
+}
+
+.info-container {
+  display: flex;
+  gap: 20px;
+}
+
+.info-image {
+  border: 2px solid #3882F6;
+  height: 150px;
+  border-radius: 12px;
+}
+
+h2 {
+  font-size: 38px;
+  font-weight: bolder;
+  color: #1F2937;
+}
+
+.info-item {
+  width: 150px;
+  text-align: center;
 }
