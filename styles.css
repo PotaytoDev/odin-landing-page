@@ -30,3 +30,47 @@ a {
   color: #F9FAF8;
   font-weight: bold;
 }
+
+.hero-section {
+  display: flex;
+  background-color: #1F2937;
+  color: white;
+  padding: 100px 200px;
+  gap: 32px;
+}
+
+.image {
+  background-color: #6d747e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+}
+
+.hero-title {
+  font-size: 48px;
+  color: #F9FAF8;
+  font-weight: bolder;
+  margin: 0;
+}
+
+.hero-text {
+  font-size: 18px;
+  color: #E5E7EB;
+  margin: 0;
+  margin: 10px 0 15px;
+}
+
+.hero-left-side {
+  max-width: 450px;
+}
+
+button {
+  background: #3882F6;
+  padding: 8px 35px;
+  color: #F9FAF8;
+  border-radius: 8px;
+  border: 1px solid #3882F6;
+  font-weight: bolder;
+  font-size: 18px;
+}
