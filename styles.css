@@ -19,6 +19,7 @@ body {
   flex: 1 1 auto;
   padding: 16px;
   max-width: 1100px;
+  margin: 0 64px;
 }
 
 h1,
@@ -150,7 +151,7 @@ button {
 
 .quote-container {
   flex-direction: column;
-  padding: 50px;
+  padding: 50px 86px;
   gap: 16px;
 }
 
@@ -164,7 +165,7 @@ button {
 
 .quote-subtext {
   align-self: flex-end;
-  margin-right: 32px;
+  margin-right: 86px;
   font-size: 24px;
   font-weight: bolder;
 }
@@ -175,8 +176,8 @@ button {
   justify-content: space-between;
   gap: 32px;
   background-color: #3882F6;
-  padding: 48px 100px;
-  margin: 64px 0;
+  padding: 48px 80px;
+  margin: 64px;
   border-radius: 8px;
 }
 
@@ -206,4 +207,5 @@ button {
   justify-content: center;
   color: #E5E7EB;
   padding: 30px 0;
+  margin-bottom: 0;
 }
