@@ -151,7 +151,7 @@ h2 {
   justify-content: center;
 }
 
-.container {
+.call-container {
   max-width: 1000px;
   display: flex;
   justify-content: space-between;
@@ -183,4 +183,20 @@ p {
   margin-left: 2px;
   font-size: 20px;
   margin-bottom: 3px;
+}
+
+/* Footer */
+
+.footer {
+  background-color: #1F2937;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #E5E7EB;
+  padding: 30px 0;
 }
