@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
@@ -138,4 +142,45 @@ h2 {
 
 .quote-container {
   max-width: 800px;
+}
+
+/* Call to action section */
+
+.call-to-action {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  max-width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3882F6;
+  padding: 48px 100px;
+  margin: 64px 0;
+  border-radius: 8px;
+  flex-grow: 1;
+}
+
+.call-to-action button {
+  border: 2px solid white;
+  flex-shrink: 0;
+}
+
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.action-subtext {
+  color: #E5E7EB;
+}
+
+.action-text {
+  color: #F9FAF8;
+  margin-left: 2px;
+  font-size: 20px;
+  margin-bottom: 3px;
 }
