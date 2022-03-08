@@ -109,3 +109,33 @@ h2 {
   width: 150px;
   text-align: center;
 }
+
+/* Quote section */
+
+.quote-section {
+  background-color: #E5E7EB;
+  padding: 75px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.quote {
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+  color: #1F2937;
+  margin: 0;
+  padding: 16px;
+}
+
+.quote-subtext {
+  text-align: right;
+  margin: 0;
+  margin-right: 32px;
+  font-size: 24px;
+  font-weight: bolder;
+}
+
+.quote-container {
+  max-width: 800px;
+}
